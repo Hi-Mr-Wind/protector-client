@@ -1,0 +1,12 @@
+[package]
+name = "protector-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4"
+log4rs = "1.2"
+serde = "1.0"
+serde_json = "1.0"
+tokio = { version = "1.38", features = ["full"] }
+tokio-tungstenite = "0.20"

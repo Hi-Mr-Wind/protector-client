@@ -1,0 +1,5 @@
+/target
+/protector-client/node_modules
+/protector-client/src-tauri/target
+/protector-server/target
+/log
