@@ -1,0 +1,15 @@
+/* main.css */
+
+/* 应用整体布局 */
+
+#app{
+
+}
+.main-mes{
+    background-color: #eaeaea;
+    border: 0px solid #606060; /* 边框宽度、样式和颜色 */
+}
+.main-list{
+    height: 100%;
+    background-color: #c0c0c0;
+}
