@@ -3,8 +3,13 @@
 
 mod cache;
 
+use protector_lib::entity;
+
+mod db;
+
 fn main() {
-  tauri::Builder::default()
-    .run(tauri::generate_context!())
-    .expect("error while running tauri application");
+    tauri::Builder::default()
+        .invoke_handler(tauri::generate_handler![])
+        .run(tauri::generate_context!())
+        .expect("error while running tauri application");
 }

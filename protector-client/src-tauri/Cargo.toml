@@ -2,7 +2,7 @@
 name = "app"
 version = "0.1.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = ["wind"]
 license = ""
 repository = ""
 default-run = "app"
@@ -18,7 +18,7 @@ tauri-build = { version = "1.5.2", features = [] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 tauri = { version = "1.6.4", features = [] }
-
+protector_lib = {version = "0.1.0",path = "/protector-client/protector_lib"}
 [features]
 # this feature is used for production builds or when `devPath` points to the filesystem and the built-in dev server is disabled.
 # If you use cargo directly instead of tauri's cli you can use this feature flag to switch between tauri's `dev` and `build` modes.

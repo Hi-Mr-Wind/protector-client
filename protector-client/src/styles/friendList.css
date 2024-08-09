@@ -1,0 +1,22 @@
+.friend-list {
+    width: 100%;
+    height: 20px;
+    border-color: #606060;
+}
+
+.heard-list {
+
+}
+
+.function {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*height: 100vh; !* 使父容器占据整个视口高度 *!*/
+    height: 650px; /* 使父容器占据整个视口高度 */
+    width: 100px;
+}
+
+.heard-me {
+
+}

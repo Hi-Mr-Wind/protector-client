@@ -5,10 +5,14 @@
       <sourceFolder url="file://$MODULE_DIR$/protector-client/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/protector-client/src-tauri/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/protector-server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/lib/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/protector_lib/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/protector-client/src-tauri/target" />
       <excludeFolder url="file://$MODULE_DIR$/protector-server/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/log" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/lib/target" />
+      <excludeFolder url="file://$MODULE_DIR$/protector_lib/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
